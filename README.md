@@ -22,4 +22,5 @@ By leveraging dynamic markdown and Shields.io badges, it injects structured syst
 ## 📸 Preview
 
 When you select a VM or LXC in your Proxmox web UI, your notes panel goes from plain text to a clean, centralized asset card:
+
 <img width="657" height="363" alt="image" src="https://github.com/user-attachments/assets/c2b277af-65a7-46c3-a689-8ad3034d9304" />
