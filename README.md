@@ -24,3 +24,14 @@ By leveraging dynamic markdown and Shields.io badges, it injects structured syst
 When you select a VM or LXC in your Proxmox web UI, your notes panel goes from plain text to a clean, centralized asset card:
 
 <img width="657" height="363" alt="image" src="https://github.com/user-attachments/assets/c2b277af-65a7-46c3-a689-8ad3034d9304" />
+
+# ProxNoter Installation Guide ⚙️
+
+Follow these instructions to quickly install **ProxNoter** globally on your Proxmox VE node.
+
+## 🚀 One-Command Quick Install
+
+Run the following command as **root** (or via `sudo`) inside your Proxmox VE terminal. This script automatically downloads the binary tool, places it in your local environment paths, sets execution permissions, and configures a global bash alias:
+
+```bash
+bash -c "$(curl -sSL [https://raw.githubusercontent.com/ZBNZGIT/ProxNoter/main/install.sh](https://raw.githubusercontent.com/ZBNZGIT/ProxNoter/main/install.sh))"
