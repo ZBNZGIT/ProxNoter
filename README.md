@@ -34,4 +34,4 @@ Follow these instructions to quickly install **ProxNoter** globally on your Prox
 Run the following command as **root** (or via `sudo`) inside your Proxmox VE terminal. This script automatically downloads the binary tool, places it in your local environment paths, sets execution permissions, and configures a global bash alias:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/ZBNZGIT/ProxNoter/main/install-proxnoter.sh
+bash -c "$(curl -sSL https://raw.githubusercontent.com/ZBNZGIT/ProxNoter/main/install-proxnoter.sh)"
